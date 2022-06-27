@@ -1,0 +1,1 @@
+cmd_/usr/test/Final-Project/driver_app/ThunderSoft_Project.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /usr/test/Final-Project/driver_app/ThunderSoft_Project.ko /usr/test/Final-Project/driver_app/ThunderSoft_Project.o /usr/test/Final-Project/driver_app/ThunderSoft_Project.mod.o;  true
